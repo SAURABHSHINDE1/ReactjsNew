@@ -1,0 +1,23 @@
+.navbar{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(180, 180, 180);
+}
+
+.logo{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menus{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
