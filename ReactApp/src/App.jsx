@@ -1,20 +1,17 @@
-import Dashboard from "./dashboard"
-import Navbar from "./navbar"
+import ConditionalRendring from "./components/condtionalRendring";
+import Home from "./components/Home";
+import Styling from "./components/styling";
 
-const App = ()=>{
-
-  return (
-  <>
-
-    <Navbar/>
-
-    <Dashboard/>
-
+const App = () => {
+    return ( <>
     
 
-  </>
-  )
+            {/* <Home/> */}
 
+            {/* <Styling/> */}
+
+            <ConditionalRendring/>            
+    </> );
 }
-
-export default App
+ 
+export default App;
