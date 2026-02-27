@@ -1,23 +1,21 @@
 const ConditionalRendring = () => {
 
-    let num = 9
+    let age = 17
 
-    let result = "fail"
+    let rattings  = 3.6
 
     return ( <>
 
         <h1>Conditional Rendering</h1>
 
 
-            <h1>You are {num >= 18 ? "eligibal for vote" : "not eligibal for vote"}</h1>
-
-            <h1>The exam result is : {result == "pass" ? "Passed" : "failed"} </h1>
+        <h1>You are {age >= 18 ? "Eligibal for vote " : " not Eligibal for vote"}</h1>
 
 
-            <h1 style={{
-                color:num > 10 ? "red" : "green"
+        <h1 style={{
+            color: rattings >3.5 ? "green" : "red"
+        }}>Rating : {rattings}*</h1>
 
-            }}>Hello DreamsGuider !</h1>
         
     </> );
 }
