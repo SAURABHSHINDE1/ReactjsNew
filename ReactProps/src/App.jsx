@@ -1,5 +1,6 @@
 import About from "./components/About";
 import Home from "./components/Home";
+import Snowfall from "react-snowfall";
 
 const App = () => {
 
@@ -9,9 +10,14 @@ const App = () => {
 
   return ( <>
 
+   <Snowfall 
+        snowflakeCount={200}
+        color="white" 
+      />
+
     <h1>React Props</h1>
 
-    <Home name={sname} sage={age}/>
+   
 
   
 
