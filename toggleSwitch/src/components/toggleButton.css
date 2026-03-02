@@ -1,0 +1,35 @@
+.main{
+    height: 170px;
+    width: 380px;
+    background-color: rgb(143, 143, 143);
+    border-radius: 90px;
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    transition: all 0.5s linear;
+}
+
+.switch{
+    height: 160px;
+    width: 160px;
+    background-color: rgb(255, 239, 65);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s linear;
+}
+
+.on{
+    transform: translateX(205px);
+    background-color: rgb(4, 234, 4);
+}
+
+.off{
+    transform: translateX(0);
+}
+
+
+.open{
+    background-color: greenyellow;
+}
