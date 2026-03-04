@@ -1,0 +1,87 @@
+[
+  {
+    "id": 1,
+    "name": "Rahul Sharma",
+    "age": 20,
+    "gender": "Male",
+    "course": "BCA",
+    "year": "Third Year",
+    "email": "rahul.sharma@gmail.com",
+    "phone": "9876543210",
+    "marks": {
+      "maths": 78,
+      "programming": 85,
+      "database": 80,
+      "english": 72
+    },
+    "isActive": true
+  },
+  {
+    "id": 2,
+    "name": "Priya Patil",
+    "age": 19,
+    "gender": "Female",
+    "course": "BCA",
+    "year": "Second Year",
+    "email": "priya.patil@gmail.com",
+    "phone": "9876501234",
+    "marks": {
+      "maths": 88,
+      "programming": 90,
+      "database": 84,
+      "english": 79
+    },
+    "isActive": true
+  },
+  {
+    "id": 3,
+    "name": "Amit Verma",
+    "age": 21,
+    "gender": "Male",
+    "course": "BSc IT",
+    "year": "Third Year",
+    "email": "amit.verma@gmail.com",
+    "phone": "9823456789",
+    "marks": {
+      "maths": 65,
+      "programming": 70,
+      "database": 68,
+      "english": 60
+    },
+    "isActive": false
+  },
+  {
+    "id": 4,
+    "name": "Sneha Kulkarni",
+    "age": 20,
+    "gender": "Female",
+    "course": "BCA",
+    "year": "First Year",
+    "email": "sneha.kulkarni@gmail.com",
+    "phone": "9812345678",
+    "marks": {
+      "maths": 92,
+      "programming": 95,
+      "database": 89,
+      "english": 85
+    },
+    "isActive": true
+  },
+  {
+    "id": 5,
+    "name": "Rohan Deshmukh",
+    "age": 22,
+    "gender": "Male",
+    "course": "BCom",
+    "year": "Third Year",
+    "email": "rohan.deshmukh@gmail.com",
+    "phone": "9765432109",
+    "marks": {
+      "maths": 55,
+      "programming": 60,
+      "database": 58,
+      "english": 62
+    },
+    "isActive": true
+  }
+]

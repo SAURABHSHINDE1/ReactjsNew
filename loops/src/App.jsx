@@ -1,9 +1,12 @@
 import Loops from "./components/Loops";
+import StudentCard from "./components/studentCard";
 
 const App = () => {
   return ( <>
   
-    <Loops/>
+    {/* <Loops/> */}
+
+      <StudentCard/>
 
   </> );
 }
