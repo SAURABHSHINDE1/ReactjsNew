@@ -1,3 +1,4 @@
+import FetchData from "./components/fetchData";
 import GetData from "./components/useEffect";
 
 const App = () => {
@@ -5,7 +6,9 @@ const App = () => {
 
   return ( <>
 
-    <GetData/>
+    {/* <GetData/> */}
+
+    <FetchData/>
   
   </> );
 }
