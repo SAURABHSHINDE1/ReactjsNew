@@ -1,20 +1,17 @@
-import style from './home.module.css'
+import style from './Home.module.css'
 
 const Home = () => {
     console.log(style)
     return ( <>
 
-    <div className={style.main}>
 
-    </div>
+            <div className={style.box}>
 
-    <div className={style.box}></div>
+                <h1>Hello</h1>
 
-
-    <div className={style['inner-div']}></div>
+            </div>
 
 
-    
     </> );
 }
  

@@ -4,18 +4,18 @@ import Snowfall from "react-snowfall";
 
 const App = () => {
 
-  let sname = "Prajwal"
+  // let sname = "Prajwal"
 
-  let age  = 23
+  // let age  = 23
 
   return ( <>
 
-   <Snowfall 
+   {/* <Snowfall 
         snowflakeCount={200}
         color="white" 
       />
 
-    <h1>React Props</h1>
+    <h1>React Props</h1> */}
 
    
 

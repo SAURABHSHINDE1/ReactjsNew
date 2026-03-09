@@ -1,18 +1,16 @@
-import studData from '../studentdata.json'
-import Card from './card';
-import './studentcard.css'
+import "./studentcard.css";
+import data from "../studentdata.json";
+import Card from "./card";
 const StudentCard = () => {
-    return ( <>
+  return (
+    <>
+      {data.map((elem, index) => {
+        return (
+        <Card key={index} elem={elem}/>
+        );
+      })}
+    </>
+  );
+};
 
-        {
-            studData.map((elem ,index)=>{
-
-                return <Card key={index} data={elem} />
-
-            })
-        }
-    
-    </> );
-}
- 
 export default StudentCard;

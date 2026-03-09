@@ -1,21 +1,21 @@
-const Card = ({data}) => {
-    return ( <>
+const Card = ({elem}) => {
+    return ( 
+         <div className="card">
+            <h1>Name:{elem.name}</h1>
 
-     <div className="box">
+            <h2>Age:{elem.age}</h2>
 
-            <h1>Student Name : {data.name}</h1>
+            <h2>Gender:{elem.gender}</h2>
 
-            <h2>Age :{data.age} </h2>
+            <h2>Course :{elem.course}</h2>
 
-            <h2>Gender :{data.gender}</h2> 
+            <h2>Year:{elem.year}</h2>
 
-            <h2>Course :{data.course}</h2>
+            <h2>Email :{elem.email}</h2>
 
-            <h2>Email : {data.email}</h2>
-
-        </div>
-    
-    </> );
+            <h2>Phone no :{elem.phone}</h2>
+          </div>
+     );
 }
  
 export default Card;
