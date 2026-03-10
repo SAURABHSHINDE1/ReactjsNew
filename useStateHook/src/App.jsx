@@ -1,4 +1,5 @@
 import CounterApp from "./components/counterapp";
+import StateComp from "./components/practice";
 import State from "./components/useState";
 
 const App = () => {
@@ -6,7 +7,9 @@ const App = () => {
 
   {/* <State/> */}
 
-  <CounterApp/>
+  {/* <CounterApp/> */}
+
+  <StateComp/>
 
   
   </> );
