@@ -1,11 +1,12 @@
 import GetData from "./components/axios";
-
+import PostData from "./components/post";
+import Snowfall from 'react-snowfall'
 const App = () => {
 
   return ( <>
 
-  <GetData/>
-  
+<PostData/>
+ 
   </> );
 }
  

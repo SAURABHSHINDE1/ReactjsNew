@@ -1,5 +1,6 @@
 import axios from 'axios'
 import { useEffect, useState } from 'react';
+import api from './baseurl';
 
 const GetData = () => {
 
@@ -14,7 +15,7 @@ const GetData = () => {
 
             try{
 
-                const res = await axios.get('https://jsonplaceholder.typicode.com/posts')
+                const res = await api.get('/posts')
 
 
               setUserData(res.data)

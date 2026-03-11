@@ -10,12 +10,12 @@ const App = () => {
 
   return ( <>
 
-   {/* <Snowfall 
+   <Snowfall 
         snowflakeCount={200}
         color="white" 
       />
 
-    <h1>React Props</h1> */}
+    <h1>React Props</h1>
 
    
 
