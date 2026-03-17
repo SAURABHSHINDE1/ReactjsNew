@@ -1,10 +1,7 @@
 const Register = () => {
 
-
     const handleForm = (e)=>{
         e.preventDefault()
-
-        console.log(e.target)
 
         let formdata = new FormData(e.target)
 
@@ -17,25 +14,38 @@ const Register = () => {
 
     return ( <>
 
-        <form onSubmit={handleForm}>
 
-            <input type="text" name="username" placeholder="Enter Name" />
+    <form onSubmit={handleForm}>
+
+        <label htmlFor="username">Username:</label>
+        <input type="text" id="username" name="username" />
+        <br /><br />
+
+        <label htmlFor="email">Email:</label>
+        <input type="email" id="email" name="email" />
             <br /><br />
 
-            <input type="email" name="email" placeholder="Enter Email" />
+        <label htmlFor="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male" />
+            <br /><br />
+        <label htmlFor="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female" />
             <br /><br />
 
-            <label htmlFor="">Male</label>
-            <input type="radio" name="gender" value="male"/>
+        <select name="courses" >
+            <option value="Html">Html</option>
+            <option value="Css">Css</option>
+            <option value="Javascript">Javascript</option>
+            <option value="React Js">React Js</option>
+            <option value="Node Js">Node Js</option>
+        </select>
             <br /><br />
 
-            <label htmlFor="">feMale</label>
-            <input type="radio" name="gender" value="female"/>
+        <button type="submit">Submit</button>
 
-            <button type="submit">submit</button>
+    </form>
 
-        </form>
-    
+
     </> );
 }
  
