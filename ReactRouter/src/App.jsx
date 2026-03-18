@@ -5,29 +5,37 @@ import Service from "./pages/service";
 import Contact from "./pages/contact";
 import About from "./pages/about";
 import Footer from "./pages/footer";
+import AppLayout from "./pages/applayout";
 const App = () => {
 
   const router = createBrowserRouter([
 
     {
       path:"/",
-      element: <> <Navbar/>  <Home/> <Footer/> </>
-    },
+      element:<AppLayout/>,
+      children:[
+        {
+          path:"/",
+          element:<Home/>
+        },
 
-    {
-      path:"/about",
-      element:<> <Navbar/> <About/> <Footer/> </>
-    },
+        {
+          path:"/about",
+          element:<About/>
+        },
 
-    {
-      path:"/service",
-      element:<> <Navbar/> <Service/> <Footer/> </>
-    },
+        {
+          path:"/service",
+          element:<Service/>
+        },
 
-    {
-      path:"/contact",
-      element:<> <Navbar/> <Contact/> <Footer/> </>
-    },
+        {
+          path:"/contact",
+          element:<Contact/>
+        }
+      ]
+    }
+    
 
   ])
 
